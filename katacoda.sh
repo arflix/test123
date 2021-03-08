@@ -8,8 +8,6 @@ sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt update
 sudo apt -y install screen
 sudo apt -y install xfce4
-sudo apt install tightvncserver
-tightvncserver :1
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
